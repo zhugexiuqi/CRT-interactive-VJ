@@ -48,7 +48,20 @@ PIN 29 VSYNC 帧同步信号
 
 PIN 30 PCLK 像素时钟
 
-PIN
+PIN 31 SCL I2C通信用
 
-ADV7611引脚定义：
-<img width="991" height="628" alt="image" src="https://github.com/user-attachments/assets/8814f437-a989-4ac4-b0de-7b11da0ea39c" />
+PIN 32 SDC I2C通信用
+
+PIN 33 RST_N
+
+PIN 34 NONE
+
+**由于我们的HDMI接收模块采用黑金接口，需要通过转接板转接为正点原子接口。二者的区别就是5V和GND的位置相反。同时正点原子多出了3V3接口和一个GND口。**
+
+<img width="203" height="312" alt="image" src="https://github.com/user-attachments/assets/07331007-66ff-43ef-bfc9-b71b464f0dd0" />
+
+<img width="300" height="373" alt="image" src="https://github.com/user-attachments/assets/f53d54e4-a322-48ee-8213-f590d8a467fa" />
+
+![微信图片_20260306013514_255_386](https://github.com/user-attachments/assets/181ebd95-181c-4426-8337-85b597baaea2)
+
+
